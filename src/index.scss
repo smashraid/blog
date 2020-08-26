@@ -1,0 +1,61 @@
+@import "./css//variables";
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  margin: 50px auto 50px;
+}
+
+.content-spacer {
+  padding-bottom: 3rem;
+}
+
+.todos {  
+  text-align: center;
+}
+
+.not-found {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+
+  &__title {
+    font-size: 9.5rem;
+  }
+}
+
+@include media-breakpoint-up(sm) { 
+  
+}
+
+@include media-breakpoint-up(md) {
+  
+
+  .todo-form {
+    max-width: 500px;
+  }
+ }
+
+ @import "./css/card";
+ @import "./css/carousel";
+ @import "./css/featurette";
+ @import "./css/hero";
+ @import "./css/header";
+ @import "./css/heading";
+ @import "./css/footer";
+ @import "./css/slider";
